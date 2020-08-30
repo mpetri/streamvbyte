@@ -15,7 +15,7 @@ harness = false
 
 [dependencies]
 thiserror = "1.0"
-streamvbyte-sys = { version = "0.1", path = "./streamvbyte-sys" }
+streamvbyte-sys = { version = "0.1" }
 
 [dev-dependencies]
 rand = "0.7"
