@@ -1,6 +1,6 @@
 [package]
 name = "streamvbyte"
-version = "0.1.0"
+version = "0.1.1"
 license = "Apache-2.0"
 description = "Rust FFI bindings for streamvbyte"
 authors = ["Matthias Petri <Matthias.Petri@gmail.com>"]
