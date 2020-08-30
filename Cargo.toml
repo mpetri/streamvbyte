@@ -1,0 +1,22 @@
+[package]
+name = "streamvbyte"
+version = "0.1.0"
+license = "Apache-2.0"
+description = "Rust FFI bindings for streamvbyte"
+authors = ["Matthias Petri <Matthias.Petri@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+keywords = ["vbyte", "streamvbyte", "compression", "integer"]
+
+[[bench]]
+name = "bench"
+harness = false
+
+[dependencies]
+thiserror = "1.0"
+streamvbyte-sys = { path = "./streamvbyte-sys" }
+
+[dev-dependencies]
+rand = "0.7"
+rand_distr = "0.2"
+criterion = "0.3"
