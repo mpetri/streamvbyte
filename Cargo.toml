@@ -4,6 +4,7 @@ version = "0.1.0"
 license = "Apache-2.0"
 description = "Rust FFI bindings for streamvbyte"
 authors = ["Matthias Petri <Matthias.Petri@gmail.com>"]
+repository = "https://github.com/mpetri/streamvbyte"
 edition = "2018"
 readme = "README.md"
 keywords = ["vbyte", "streamvbyte", "compression", "integer"]
